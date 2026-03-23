@@ -1,4 +1,5 @@
 import  smtplib as s 
+from finder import all_data
 
 ob=s.SMTP('smtp.gmail.com',587)
 ob.ehlo()
